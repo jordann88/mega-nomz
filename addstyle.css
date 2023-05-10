@@ -1,8 +1,4 @@
 
-/* https://bbbootstrap.com/snippets/bootstrap-ecommerce-product-list-sidebar-filters-45421504
-this is helpful for the sidebar structure */
-
-
 body {
     margin: 0;
     padding: 0;
@@ -16,20 +12,13 @@ button {
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);  
 }
 
-
-#sidebar {
-    width: 20%;
-    margin: 0;
-    float: left;
+input[type=text] {
+    padding:10px;
+    margin: 5px;
+    border:0;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);  
 }
-
-#recipe-cards {
-    width: 80%;
-    margin: 0;
-    float: right;
-}
-
-
 
 
 
@@ -52,8 +41,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(https://res.cloudinary.com/gymstreak/image/fetch/c_fit,q_auto,f_auto,dpr_auto/https://blog.gymstreak.com/content/images/size/w2000/2019/11/rustic-assortment-of-paleo-foods-including-eggs-9HB6DYC.jpg);
-    /* background: url(https://hips.hearstapps.com/hmg-prod/images/what-is-paleo-1610638010.jpg); */
+    background: url(https://cdn.centr.com/content/15000/14301/images/landscapedesktop2x-cen-collection-budget-header-43-version3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

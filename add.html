@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mega Nomz</title>
+        <link rel="stylesheet" href="addstyle.css">
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <section class="hero">
+                <div class="hero-image">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Add a new recipe</h1>
+                        <h2 class="hero-subtitle">with...</h2>
+                        <a href="#new-recipe-form"><button>Form</button></a>
+                        <a href="#new-recipe-url"><button>URL</button></a>
+                        <p>or</p>
+                        <a href="./index.html"><button>Go back home</button></a>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section id="new-recipe-form">
+                <div>
+                    <h2>Add New Recipe via Form</h2>
+                    <form>
+                        <label for="recipename">Recipe name:</label>
+                        <input type="text" id="recipename" name="recipename"><br>
+
+                        <label for="recipe-source">Recipe source:</label>
+                        <input type="text" id="recipe-source" name="recipe-source"><br>
+
+                        <label for="recipesourceurl">URL:</label>
+                        <input type="text" id="recipesourceurl" name="recipesourceurl"><br>
+
+                        <label for="recipeohoto">Photo:</label>
+                        <input type="text" id="recipeohoto" name="recipeohoto"><br>
+
+                        <label for="recipecuisine">Cuisine: </label>
+                        <!-- <input type="text" id="recipecuisine" name="recipecuisine"><br> -->
+                            <select name="recipecuisine" id="recipecuisine">
+                                <option value="american">American</option>
+                                <option value="mexican">Mexican</option>
+                                <option value="indian">Indian</option>
+                            </select><br>
+
+
+
+                        <label for="recipetemp">Recipe temperature:</label>
+                        <input type="text" id="recipetemp" name="recipetemp"><br>
+
+                        <label for="recipename">Recipe name:</label>
+                        <input type="text" id="recipename" name="recipename"><br>
+
+                        <label for="recipename">Recipe name:</label>
+                        <input type="text" id="recipename" name="recipename"><br>
+
+                        <label for="recipename">Recipe name:</label>
+                        <input type="text" id="recipename" name="recipename"><br>
+                        
+                      </form>
+                </div>
+            </section>
+            
+            <section id="new-recipe-url">
+                <h2>Add new recipe via URL</h2>
+            </section>
+
+
+        </main>
+
+    </body>
+
+</html>
