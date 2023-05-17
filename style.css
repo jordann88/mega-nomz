@@ -19,12 +19,18 @@ button {
 
 #sidebar {
     width: 20%;
-    margin: 0;
+    margin: 0px 10px 10px;
+    padding-left: 10px;
     float: left;
+    border: 5px solid black;
+}
+
+#sidebar h4 {
+    font-family: ;
 }
 
 #recipe-cards {
-    width: 80%;
+    width: 75%;
     margin: 0;
     float: right;
 }
