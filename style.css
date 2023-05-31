@@ -35,6 +35,13 @@ button {
     float: right;
 }
 
+.recipe-card-grid {
+    display: flex;
+}
+
+.card {
+
+}
 
 
 
