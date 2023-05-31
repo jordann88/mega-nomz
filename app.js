@@ -158,9 +158,9 @@ recipes_array.forEach(function(singleRecipe) {
     <article>
         <div class="card">
             <h4>${singleRecipe.name}</h4>
-            <img src="${singleRecipe.image}">
-            <p>${singleRecipe.description}</p>
-            <p>Recipe from <a href="${singleRecipe.sourceURL}">${singleRecipe.source}</a></p>
+            <img class="recipe-card-image" src="${singleRecipe.image}">
+            <p class="recipe-card-description">${singleRecipe.description}</p>
+            <p class="recipe-card-source">Recipe from <a href="${singleRecipe.sourceURL}">${singleRecipe.source}</a></p>
         </div>
     </article>
     `;

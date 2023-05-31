@@ -35,13 +35,44 @@ button {
     float: right;
 }
 
+
+
+
+
+/* RECIPE CARDS GRID */
+
 .recipe-card-grid {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card {
-
+    max-width: 250px;
 }
+
+.card p {
+    font-size: 18px;
+}
+
+
+.recipe-card-image {
+    max-width: 250px;
+}
+
+.recipe-card-source {
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+}
+
+.recipe-card-source a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+
 
 
 
