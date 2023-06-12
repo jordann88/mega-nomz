@@ -8,6 +8,10 @@
         <title>Mega Nomz | Jordan's Favorite Recipes</title>
         <link rel="stylesheet" href="style.css">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&family=Handlee&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
@@ -29,11 +33,10 @@
         <main>
             <section id="sidebar">
                 <div>
-                    <h3>Left sidebar</h3>
-                    <h4>Ingredients</h4>
+                    <h3>Ingredients</h3>
                     <div>
-                        <h4>Cuisine</h4>
-                        <form class="">
+                        <h3>Cuisine</h3>
+                        <form class="recipe-search-options">
                             <div class="">
                                 <input type="checkbox" name="type" id="american"
                                 <label for="american" class="">American</label>
@@ -51,8 +54,8 @@
                     </div>
 
                     <div>
-                        <h4>Type of meal</h4>
-                        <form class="">
+                        <h3>Type of meal</h3>
+                        <form class="recipe-search-options">
                             <div class="">
                                 <input type="checkbox" name="type" id="salad"
                                 <label for="salad" class="">Salad</label>
@@ -82,8 +85,8 @@
                     </div>
 
                     <div>
-                        <h4>Protein</h4>
-                        <form class="">
+                        <h3>Protein</h3>
+                        <form class="recipe-search-options">
                             <div class="">
                                 <input type="checkbox" name="type" id="chicken"
                                 <label for="chicken" class="">Chicken</label>
@@ -113,8 +116,8 @@
                     </div>
 
                     <div>
-                        <h4>Time of Day</h4>
-                        <form class="">
+                        <h3>Time of Day</h3>
+                        <form class="recipe-search-options">
                             <div class="">
                                 <input type="checkbox" name="type" id="breakfast"
                                 <label for="breakfast" class="">Breakfast</label>
@@ -135,8 +138,8 @@
                     </div>
 
                     <div>
-                        <h4>Temperature</h4>
-                        <form class="">
+                        <h3>Temperature</h3>
+                        <form class="recipe-search-options">
                             <div class="">
                                 <input type="checkbox" name="type" id="cold"
                                 <label for="cold" class="">Cold</label>
@@ -149,8 +152,8 @@
                     </div>
 
                     <div>
-                        <h4>Meal prepable?</h4>
-                        <form class="">
+                        <h3>Meal prepable?</h3>
+                        <form class="recipe-search-options">
                             <div class="">
                                 <input type="radio" name="type" id="prepable"
                                 <label for="prepable" class="">Yes</label>
@@ -162,7 +165,6 @@
 
             <section id="recipe-cards">
                 <div>
-                    <h3>Matching recipes area</h3>
                     <div class="recipe-card-grid"></div>
                 </div>
             </section>
